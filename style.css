@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.logo > img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.btn-brown{
+    background-color: rgb(172, 150, 143) !important;
+    color: white;
+}
+
+.top-section{
+    background-color:  #f3efea;
+}
+.top-section > h1{
+    font-size: 50px;
+}
+
+.top-section-right{
+    background-color:  #f3efea;
+}
+
+.top-section >h1{
+    font-family: 'Playfair Display', serif;
+}
+
+.form-section{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-section > h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.gallery{
+    background-color: #332f31;
+}
+
+.gallery> .row>.left> h2{
+   color:  rgb(172, 150, 143);
+   font-family: "Playfair Display", serif;
+}
+
+.gallery> .row>.left> p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.before-after > h1{
+    color:  rgb(172, 150, 143);
+}
+
+.fancy-font{
+    text-align: center;
+    font-family: "Playfair Display", serif !important;
+}
+
+.testimonials{
+    background-color: #eaeae1;
+}
+
+.call-to-action{
+    min-height: 50vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.call-to-action::before{
+    content: "";
+    background-image: url("https://g99plus.b-cdn.net/Landingpages/aesthetic%20beauty%20lounge/lip_filler/AdobeStock_556469654.jpeg");
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -44;
+    width: 100%;
+    height: 100%;
+}
+
+.end-footer{
+    background-color: rgb(51, 47, 49);
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    .form-section{
+        position: relative !important;
+        top: unset;
+        right: unset;
+        width: 70%;
+        margin: auto;
+    }
+}
